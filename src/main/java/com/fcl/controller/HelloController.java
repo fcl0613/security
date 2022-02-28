@@ -24,4 +24,10 @@ public class HelloController {
     public String comments(){
         return "comments";
     }
+
+    @GetMapping("/masterTest")
+    @ResponseBody
+    public String masterTest(){
+        return "masterTest";
+    }
 }
