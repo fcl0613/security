@@ -18,4 +18,10 @@ public class HelloController {
     public String sayBye(){
         return "bye";
     }
+
+    @GetMapping("/comments")
+    @ResponseBody
+    public String comments(){
+        return "comments";
+    }
 }
