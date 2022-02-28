@@ -24,4 +24,10 @@ public class HelloController {
     public String comments(){
         return "comments";
     }
+
+    @GetMapping("/hotFix")
+    @ResponseBody
+    public String hotFix(){
+        return "hotFix";
+    }
 }
