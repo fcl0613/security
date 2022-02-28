@@ -30,4 +30,10 @@ public class HelloController {
     public String hotFix(){
         return "hotFix";
     }
+
+    @GetMapping("/masterTest")
+    @ResponseBody
+    public String masterTest(){
+        return "masterTest";
+    }
 }
