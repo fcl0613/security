@@ -36,4 +36,10 @@ public class HelloController {
     public String masterTest(){
         return "masterTest";
     }
+
+    @GetMapping("/push")
+    @ResponseBody
+    public String pushTest(){
+        return "pushTest";
+    }
 }
